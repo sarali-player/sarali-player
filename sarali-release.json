@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "product": "Sarali Player",
+  "version": "2.5.0",
+  "releasedAt": "2026-08-01T19:12:41.604Z",
+  "player": {
+    "file": "sarali-player.html",
+    "bytes": 976130,
+    "sha256": "42549db57d6897d3777fe1bb9cf7b5de5ee3a3e67583e48c3349ba9b4406cede"
+  },
+  "sbom": {
+    "spdx": "sarali-player.spdx.json",
+    "cyclonedx": "sarali-player.cdx.json"
+  },
+  "checksums": "SHA256SUMS.txt",
+  "provenance": null
+}

@@ -1,0 +1,66 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:c2f770f8-f0ea-4fc9-8f3b-c78eeab423ed",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-01T19:12:41.604Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "Sarali deterministic release tooling",
+          "version": "2.5.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "sarali-player",
+      "name": "Sarali Player",
+      "version": "2.5.0",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "42549db57d6897d3777fe1bb9cf7b5de5ee3a3e67583e48c3349ba9b4406cede"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "jungle-js",
+      "name": "Jungle.js",
+      "version": "modified-2012",
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/cwilso/Audio-Input-Effects/blob/main/js/jungle.js"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "sarali-player",
+      "dependsOn": [
+        "jungle-js"
+      ]
+    },
+    {
+      "ref": "jungle-js",
+      "dependsOn": []
+    }
+  ]
+}

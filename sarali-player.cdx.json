@@ -1,16 +1,16 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:c2f770f8-f0ea-4fc9-8f3b-c78eeab423ed",
+  "serialNumber": "urn:uuid:5db6e0f5-f960-42ef-833a-6891edff8637",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-08-01T19:12:41.604Z",
+    "timestamp": "2026-08-04T05:58:41.862Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "Sarali deterministic release tooling",
-          "version": "2.5.0"
+          "version": "2.20.0"
         }
       ]
     },
@@ -18,16 +18,16 @@
       "type": "application",
       "bom-ref": "sarali-player",
       "name": "Sarali Player",
-      "version": "2.5.0",
+      "version": "2.20.0",
       "licenses": [
         {
-          "expression": "BSD-3-Clause"
+          "expression": "MIT"
         }
       ],
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "42549db57d6897d3777fe1bb9cf7b5de5ee3a3e67583e48c3349ba9b4406cede"
+          "content": "71f35cf25a0189d76e362fb28c9eb8a2936f42a096f4c14c51b774e38c70a912"
         }
       ]
     }

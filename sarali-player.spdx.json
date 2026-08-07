@@ -5,7 +5,7 @@
       "@id": "urn:sarali:spdx:creation-info",
       "type": "CreationInfo",
       "specVersion": "3.0.1",
-      "created": "2026-08-06T00:00:00.000Z",
+      "created": "2026-08-07T08:40:32.000Z",
       "createdBy": [
         "urn:sarali:spdx:agent:release-tool"
       ],
@@ -21,44 +21,44 @@
       "name": "Sarali deterministic release tooling"
     },
     {
-      "@id": "urn:sarali:spdx:document:2.27.0",
+      "@id": "urn:sarali:spdx:document:2.29.6",
       "type": "SpdxDocument",
       "creationInfo": "urn:sarali:spdx:creation-info",
-      "name": "Sarali Player 2.27.0 SPDX SBOM",
+      "name": "Sarali Player 2.29.6 SPDX SBOM",
       "element": [
-        "urn:sarali:spdx:sbom:2.27.0",
-        "urn:sarali:spdx:package:sarali-player:2.27.0",
+        "urn:sarali:spdx:sbom:2.29.6",
+        "urn:sarali:spdx:package:sarali-player:2.29.6",
         "urn:sarali:spdx:package:jungle-js:modified-2012"
       ],
       "rootElement": [
-        "urn:sarali:spdx:sbom:2.27.0"
+        "urn:sarali:spdx:sbom:2.29.6"
       ]
     },
     {
-      "@id": "urn:sarali:spdx:sbom:2.27.0",
+      "@id": "urn:sarali:spdx:sbom:2.29.6",
       "type": "software_Sbom",
       "creationInfo": "urn:sarali:spdx:creation-info",
-      "name": "Sarali Player 2.27.0 software bill of materials",
+      "name": "Sarali Player 2.29.6 software bill of materials",
       "element": [
-        "urn:sarali:spdx:package:sarali-player:2.27.0",
+        "urn:sarali:spdx:package:sarali-player:2.29.6",
         "urn:sarali:spdx:package:jungle-js:modified-2012"
       ],
       "rootElement": [
-        "urn:sarali:spdx:package:sarali-player:2.27.0"
+        "urn:sarali:spdx:package:sarali-player:2.29.6"
       ]
     },
     {
-      "@id": "urn:sarali:spdx:package:sarali-player:2.27.0",
+      "@id": "urn:sarali:spdx:package:sarali-player:2.29.6",
       "type": "software_Package",
       "creationInfo": "urn:sarali:spdx:creation-info",
       "name": "Sarali Player",
-      "software_packageVersion": "2.27.0",
+      "software_packageVersion": "2.29.6",
       "software_downloadLocation": "NOASSERTION",
       "software_copyrightText": "Copyright (c) 2026 A. Prasad <sarali.player@gmail.com>",
       "software_primaryPurpose": "application",
       "simplelicensing_licenseExpression": "MIT",
       "verifiedUsing": [
-        "urn:sarali:spdx:hash:sarali-player:227cbbddcbd662520909eaea33b0e1798606b2adcfd74daa8aff96a5ceb86123"
+        "urn:sarali:spdx:hash:sarali-player:2f87b7b9037281692360bc114749cbf711057725146d2e680fc96a521aa21ac6"
       ]
     },
     {
@@ -73,16 +73,16 @@
       "simplelicensing_licenseExpression": "BSD-3-Clause"
     },
     {
-      "@id": "urn:sarali:spdx:hash:sarali-player:227cbbddcbd662520909eaea33b0e1798606b2adcfd74daa8aff96a5ceb86123",
+      "@id": "urn:sarali:spdx:hash:sarali-player:2f87b7b9037281692360bc114749cbf711057725146d2e680fc96a521aa21ac6",
       "type": "Hash",
       "algorithm": "sha256",
-      "hashValue": "227cbbddcbd662520909eaea33b0e1798606b2adcfd74daa8aff96a5ceb86123"
+      "hashValue": "2f87b7b9037281692360bc114749cbf711057725146d2e680fc96a521aa21ac6"
     },
     {
       "@id": "urn:sarali:spdx:relationship:contains",
       "type": "Relationship",
       "creationInfo": "urn:sarali:spdx:creation-info",
-      "from": "urn:sarali:spdx:package:sarali-player:2.27.0",
+      "from": "urn:sarali:spdx:package:sarali-player:2.29.6",
       "relationshipType": "contains",
       "to": [
         "urn:sarali:spdx:package:jungle-js:modified-2012"
